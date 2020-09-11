@@ -1,0 +1,297 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [{
+    "expression": {"items": [
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4051938,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "233174007",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Cardiac pacemaker procedure",
+          "DOMAIN_ID": "Procedure",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Procedure",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 2313791,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "92960",
+          "VOCABULARY_ID": "CPT4",
+          "CONCEPT_NAME": "Cardioversion, elective, electrical conversion of arrhythmia; external",
+          "DOMAIN_ID": "Procedure",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "CPT4",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 2756785,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "0JH835Z",
+          "VOCABULARY_ID": "ICD10PCS",
+          "CONCEPT_NAME": "Insertion of Pacemaker, Single Chamber Rate Responsive into Abdomen Subcutaneous Tissue and Fascia, Percutaneous Approach",
+          "DOMAIN_ID": "Procedure",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "ICD10PCS",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4019139,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "175135009",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Introduction of cardiac pacemaker system via vein",
+          "DOMAIN_ID": "Procedure",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Procedure",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 2615874,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "C1898",
+          "VOCABULARY_ID": "HCPCS",
+          "CONCEPT_NAME": "Lead, pacemaker, other than transvenous vdd single pass",
+          "DOMAIN_ID": "Device",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "HCPCS",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 2615956,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "C2619",
+          "VOCABULARY_ID": "HCPCS",
+          "CONCEPT_NAME": "Pacemaker, dual chamber, non rate-responsive (implantable)",
+          "DOMAIN_ID": "Device",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "HCPCS",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 2615795,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "C1785",
+          "VOCABULARY_ID": "HCPCS",
+          "CONCEPT_NAME": "Pacemaker, dual chamber, rate-responsive (implantable)",
+          "DOMAIN_ID": "Device",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "HCPCS",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 2615958,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "C2621",
+          "VOCABULARY_ID": "HCPCS",
+          "CONCEPT_NAME": "Pacemaker, other than single or dual chamber (implantable)",
+          "DOMAIN_ID": "Device",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "HCPCS",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 2615957,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "C2620",
+          "VOCABULARY_ID": "HCPCS",
+          "CONCEPT_NAME": "Pacemaker, single chamber, non rate-responsive (implantable)",
+          "DOMAIN_ID": "Device",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "HCPCS",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 2615796,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "C1786",
+          "VOCABULARY_ID": "HCPCS",
+          "CONCEPT_NAME": "Pacemaker, single chamber, rate-responsive (implantable)",
+          "DOMAIN_ID": "Device",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "HCPCS",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4169095,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "48867003",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Bradycardia",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4171683,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "49710005",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Sinus bradycardia",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 317302,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "60423000",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Sinus node dysfunction",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }
+    ]},
+    "name": "Pacemaker or bradycardia",
+    "id": 0
+  }],
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [],
+  "PrimaryCriteria": {
+    "CriteriaList": [
+      {"DeviceExposure": {
+        "OccurrenceEndDate": null,
+        "DeviceTypeExclude": false,
+        "CorrelatedCriteria": null,
+        "CodesetId": 0,
+        "Quantity": null,
+        "UniqueDeviceId": null,
+        "ProviderSpecialty": null,
+        "DeviceSourceConcept": null,
+        "Gender": null,
+        "DeviceType": null,
+        "VisitType": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "Age": null
+      }},
+      {"ProcedureOccurrence": {
+        "ProcedureType": null,
+        "CorrelatedCriteria": null,
+        "CodesetId": 0,
+        "ProcedureSourceConcept": null,
+        "Quantity": null,
+        "ProviderSpecialty": null,
+        "Gender": null,
+        "ProcedureTypeExclude": false,
+        "VisitType": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "Modifier": null,
+        "Age": null
+      }},
+      {"ConditionOccurrence": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": null,
+        "ConditionTypeExclude": false,
+        "CodesetId": 0,
+        "ProviderSpecialty": null,
+        "Gender": null,
+        "VisitType": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "ConditionType": null,
+        "ConditionSourceConcept": null,
+        "StopReason": null,
+        "Age": null
+      }}
+    ],
+    "PrimaryCriteriaLimit": {"Type": "All"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}

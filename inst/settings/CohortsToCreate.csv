@@ -1,0 +1,21 @@
+atlasId,atlasName,cohortId,name
+1775105,Metformin_itt,1775105,Metformin_itt
+1775107,tzd_itt,1775107,tzd_itt
+1773135,[m vs s] AF,1773135,m_vs_s_AF
+1773134,[m vs s] VT/VF,1773134,m_vs_s_VTVF
+1773321,Atrial flutter and supraventricular arrhythmia,1773321,Atrial_flutter_and_supraventricular_arrhythmia
+1773133,[m vs s] cardiac arrest,1773133,m_vs_s_cardiac_arrest
+1773246,Pacemaker or bradycardia_a,1773246,Pacemaker_or_bradycardia_a
+1773136,[m vs s] death,1773136,m_vs_s_death
+1775110,Sulfonylureas_itt,1775110,Sulfonylureas_itt
+1775108,dpp_itt,1775108,dpp_itt
+1775109,glp1_itt,1775109,glp1_itt
+1773511,"Metformin ",1773511,Metformin_
+1773632,"TZD ",1773632,TZD_
+1773631,"DPP4 ",1773631,DPP4_
+1773617,"GLP1 ",1773617,GLP1_
+1773633,"Sulfonylureas ",1773633,Sulfonylureas_
+1773517,GLP1,1773517,GLP1
+1773514,dpp4,1773514,dpp4
+1773516,TZD,1773516,TZD
+1773515,sulfonylureas,1773515,sulfonylureas

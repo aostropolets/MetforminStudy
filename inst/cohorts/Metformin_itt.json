@@ -1,0 +1,755 @@
+{
+  "ExpressionLimit": {"Type": "All"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 90
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 201826,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "44054006",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Type 2 diabetes mellitus",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "diabetes type 2",
+      "id": 0
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 1503297,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "6809",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "Metformin",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Ingredient",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "metformin ing",
+      "id": 1
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 313217,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "49436004",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Atrial fibrillation",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Atrial Fibrillation",
+      "id": 3
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 437894,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "71908006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Ventricular fibrillation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4103295,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "25569003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Ventricular tachycardia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "VT_VF",
+      "id": 4
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 321042,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "410429000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cardiac arrest",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45766074,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "703162001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Bradycardic cardiac arrest",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4169095,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "48867003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Bradycardia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "cardiac arrest",
+      "id": 5
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4169095,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "48867003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Bradycardia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45766074,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "703162001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Bradycardic cardiac arrest",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "bradicardic ca",
+      "id": 6
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4024659,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "11687002",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Gestational diabetes mellitus",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "gestational diabetes",
+      "id": 9
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 201254,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "46635009",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Type 1 diabetes mellitus",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "diabetes type I",
+      "id": 10
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40063352,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "406082",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Metformin Oral Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40063354,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "372803",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Metformin Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "metformin mono",
+      "id": 12
+    }
+  ],
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "AdditionalCriteria": {
+    "CriteriaList": [
+      {
+        "RestrictVisit": false,
+        "StartWindow": {
+          "UseEventEnd": false,
+          "Start": {
+            "Days": 0,
+            "Coeff": -1
+          },
+          "End": {
+            "Days": 1,
+            "Coeff": 1
+          },
+          "UseIndexEnd": false
+        },
+        "IgnoreObservationPeriod": false,
+        "EndWindow": null,
+        "Criteria": {"DrugEra": {
+          "EraStartDate": null,
+          "CorrelatedCriteria": null,
+          "OccurrenceCount": null,
+          "AgeAtStart": null,
+          "GapDays": null,
+          "CodesetId": 12,
+          "AgeAtEnd": null,
+          "First": null,
+          "Gender": null,
+          "EraLength": {
+            "Op": "gt",
+            "Extent": null,
+            "Value": 364
+          },
+          "EraEndDate": null
+        }},
+        "Occurrence": {
+          "Type": 2,
+          "IsDistinct": false,
+          "Count": 1
+        }
+      },
+      {
+        "RestrictVisit": false,
+        "StartWindow": {
+          "UseEventEnd": false,
+          "Start": {
+            "Days": 241,
+            "Coeff": 1
+          },
+          "End": {
+            "Days": 360,
+            "Coeff": 1
+          },
+          "UseIndexEnd": false
+        },
+        "IgnoreObservationPeriod": false,
+        "EndWindow": null,
+        "Criteria": {"DrugExposure": {
+          "OccurrenceEndDate": null,
+          "CorrelatedCriteria": {
+            "CriteriaList": [{
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 121,
+                  "Coeff": 1
+                },
+                "End": {
+                  "Days": 240,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugExposure": {
+                "OccurrenceEndDate": null,
+                "CorrelatedCriteria": null,
+                "DrugSourceConcept": null,
+                "CodesetId": 12,
+                "DrugTypeExclude": false,
+                "Quantity": null,
+                "DrugType": null,
+                "ProviderSpecialty": null,
+                "EffectiveDrugDose": null,
+                "Gender": null,
+                "DaysSupply": null,
+                "DoseUnit": null,
+                "VisitType": null,
+                "Refills": null,
+                "First": null,
+                "OccurrenceStartDate": null,
+                "RouteConcept": null,
+                "StopReason": null,
+                "LotNumber": null,
+                "Age": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            }],
+            "Type": "ALL",
+            "DemographicCriteriaList": [],
+            "Groups": [],
+            "Count": null
+          },
+          "DrugSourceConcept": null,
+          "CodesetId": 12,
+          "DrugTypeExclude": false,
+          "Quantity": null,
+          "DrugType": null,
+          "ProviderSpecialty": null,
+          "EffectiveDrugDose": null,
+          "Gender": null,
+          "DaysSupply": null,
+          "DoseUnit": null,
+          "VisitType": null,
+          "Refills": null,
+          "First": null,
+          "OccurrenceStartDate": null,
+          "RouteConcept": null,
+          "StopReason": null,
+          "LotNumber": null,
+          "Age": null
+        }},
+        "Occurrence": {
+          "Type": 2,
+          "IsDistinct": false,
+          "Count": 1
+        }
+      }
+    ],
+    "Type": "ANY",
+    "DemographicCriteriaList": [],
+    "Groups": [],
+    "Count": null
+  },
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 1,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 3,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "no prior AF",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 1,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 5,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "no cardiac arrest",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 1,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 4,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "no VT/VF",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 365,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 9,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "no gestation diabetes",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 10,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "no diabetes type I",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 0,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ANY",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "diabetes type II",
+      "description": null
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"DrugExposure": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "DrugSourceConcept": null,
+      "CodesetId": 12,
+      "DrugTypeExclude": false,
+      "Quantity": null,
+      "DrugType": null,
+      "ProviderSpecialty": null,
+      "EffectiveDrugDose": null,
+      "Gender": null,
+      "DaysSupply": null,
+      "DoseUnit": null,
+      "VisitType": null,
+      "Refills": null,
+      "First": null,
+      "OccurrenceStartDate": null,
+      "RouteConcept": null,
+      "StopReason": null,
+      "LotNumber": null,
+      "Age": {
+        "Op": "bt",
+        "Extent": 100,
+        "Value": 18
+      }
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 365
+    }
+  }
+}

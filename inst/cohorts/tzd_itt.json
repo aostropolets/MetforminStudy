@@ -1,0 +1,1308 @@
+{
+  "ExpressionLimit": {"Type": "All"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 90
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 201826,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "44054006",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Type 2 diabetes mellitus",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "diabetes type 2",
+      "id": 0
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1525215,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "33738",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pioglitazone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1547504,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "84108",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "rosiglitazone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1515249,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "72610",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "troglitazone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "TZD ingredients",
+      "id": 1
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 313217,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "49436004",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Atrial fibrillation",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Atrial Fibrillation",
+      "id": 3
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 437894,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "71908006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Ventricular fibrillation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4103295,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "25569003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Ventricular tachycardia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "VT_VF",
+      "id": 4
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 321042,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "410429000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cardiac arrest",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45766074,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "703162001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Bradycardic cardiac arrest",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4169095,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "48867003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Bradycardia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "cardiac arrest",
+      "id": 5
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4169095,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "48867003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Bradycardia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45766074,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "703162001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Bradycardic cardiac arrest",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "bradicardic ca",
+      "id": 6
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4024659,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "11687002",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Gestational diabetes mellitus",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "gestational diabetes",
+      "id": 9
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 201254,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "46635009",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Type 1 diabetes mellitus",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "diabetes type I",
+      "id": 10
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40099897,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "374606",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pioglitazone Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40099632,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "373801",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "rosiglitazone Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40100066,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "374252",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "troglitazone Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "TZD mono",
+      "id": 11
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40126689,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "577093",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Metformin / pioglitazone Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40173226,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "899988",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Metformin / pioglitazone Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40063306,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "378729",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Metformin / rosiglitazone Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "metformin and TZD",
+      "id": 12
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40063352,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "406082",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Metformin Oral Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40063354,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "372803",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Metformin Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "metformin mono",
+      "id": 13
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43013884,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1368001",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "alogliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40239216,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1100699",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Linagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40166035,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "857974",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "saxagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1580747,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "593411",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sitagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19122137,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "596554",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "vildagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "DPP4 ingredient",
+      "id": 14
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1530014,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "173",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Acetohexamide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19033498,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2068",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Carbutamide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1594973,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2404",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Chlorpropamide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19001409,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "102846",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "glibornuride",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19059796,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "4816",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Gliclazide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1597756,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "25789",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "glimepiride",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1560171,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "4821",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Glipizide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19097821,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "25793",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "gliquidone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1559684,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "4815",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Glyburide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1502809,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "10633",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Tolazamide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1502855,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "10635",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Tolbutamide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Sulfonylureas ingredient",
+      "id": 15
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44816332,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1534763",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "albiglutide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45774435,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1551291",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "dulaglutide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1583722,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "60548",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "exenatide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40170911,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "475968",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "liraglutide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44506754,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1440051",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Lixisenatide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 793143,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1991302",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "semaglutide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "GLP1 ingredient",
+      "id": 16
+    }
+  ],
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "AdditionalCriteria": {
+    "CriteriaList": [],
+    "Type": "ANY",
+    "DemographicCriteriaList": [],
+    "Groups": [],
+    "Count": null
+  },
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 1,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 3,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "no prior AF",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 1,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 5,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "no cardiac arrest",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 1,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 4,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "no VT/VF",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 365,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 9,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "no gestation diabetes",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 10,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "no diabetes type I",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 0,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ANY",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "diabetes type II",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": 121,
+                "Coeff": 1
+              },
+              "End": {
+                "Days": 240,
+                "Coeff": 1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": null,
+            "Criteria": {"DrugExposure": {
+              "OccurrenceEndDate": null,
+              "CorrelatedCriteria": {
+                "CriteriaList": [{
+                  "RestrictVisit": false,
+                  "StartWindow": {
+                    "UseEventEnd": false,
+                    "Start": {
+                      "Days": 241,
+                      "Coeff": -1
+                    },
+                    "End": {
+                      "Days": 360,
+                      "Coeff": 1
+                    },
+                    "UseIndexEnd": false
+                  },
+                  "IgnoreObservationPeriod": false,
+                  "EndWindow": null,
+                  "Criteria": {"DrugExposure": {
+                    "OccurrenceEndDate": null,
+                    "CorrelatedCriteria": null,
+                    "DrugSourceConcept": null,
+                    "CodesetId": 1,
+                    "DrugTypeExclude": false,
+                    "Quantity": null,
+                    "DrugType": null,
+                    "ProviderSpecialty": null,
+                    "EffectiveDrugDose": null,
+                    "Gender": null,
+                    "DaysSupply": null,
+                    "DoseUnit": null,
+                    "VisitType": null,
+                    "Refills": null,
+                    "First": null,
+                    "OccurrenceStartDate": null,
+                    "RouteConcept": null,
+                    "StopReason": null,
+                    "LotNumber": null,
+                    "Age": null
+                  }},
+                  "Occurrence": {
+                    "Type": 2,
+                    "IsDistinct": false,
+                    "Count": 1
+                  }
+                }],
+                "Type": "ALL",
+                "DemographicCriteriaList": [],
+                "Groups": [],
+                "Count": null
+              },
+              "DrugSourceConcept": null,
+              "CodesetId": 1,
+              "DrugTypeExclude": false,
+              "Quantity": null,
+              "DrugType": null,
+              "ProviderSpecialty": null,
+              "EffectiveDrugDose": null,
+              "Gender": null,
+              "DaysSupply": null,
+              "DoseUnit": null,
+              "VisitType": null,
+              "Refills": null,
+              "First": null,
+              "OccurrenceStartDate": null,
+              "RouteConcept": null,
+              "StopReason": null,
+              "LotNumber": null,
+              "Age": null
+            }},
+            "Occurrence": {
+              "Type": 2,
+              "IsDistinct": false,
+              "Count": 1
+            }
+          },
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": 1,
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 1,
+                "Coeff": 1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": null,
+            "Criteria": {"DrugEra": {
+              "EraStartDate": null,
+              "CorrelatedCriteria": null,
+              "OccurrenceCount": null,
+              "AgeAtStart": null,
+              "GapDays": null,
+              "CodesetId": 1,
+              "AgeAtEnd": null,
+              "First": null,
+              "Gender": null,
+              "EraLength": {
+                "Op": "gt",
+                "Extent": null,
+                "Value": 364
+              },
+              "EraEndDate": null
+            }},
+            "Occurrence": {
+              "Type": 2,
+              "IsDistinct": false,
+              "Count": 1
+            }
+          }
+        ],
+        "Type": "ANY",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "TZD for at least a year",
+      "description": null
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"DrugExposure": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "DrugSourceConcept": null,
+      "CodesetId": 11,
+      "DrugTypeExclude": false,
+      "Quantity": null,
+      "DrugType": null,
+      "ProviderSpecialty": null,
+      "EffectiveDrugDose": null,
+      "Gender": null,
+      "DaysSupply": null,
+      "DoseUnit": null,
+      "VisitType": null,
+      "Refills": null,
+      "First": null,
+      "OccurrenceStartDate": null,
+      "RouteConcept": null,
+      "StopReason": null,
+      "LotNumber": null,
+      "Age": {
+        "Op": "bt",
+        "Extent": 100,
+        "Value": 18
+      }
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 365
+    }
+  }
+}

@@ -1,0 +1,617 @@
+targetId,comparatorId,outcomeId,outcomeName,type
+1775105,1775107,376707,Acute conjunctivitis,outcome
+1775105,1775107,433753,Alcohol abuse,outcome
+1775105,1775107,257007,Allergic rhinitis,outcome
+1775105,1775107,442077,Anxiety disorder,outcome
+1775105,1775107,436665,Bipolar disorder,outcome
+1775105,1775107,380094,Carpal tunnel syndrome,outcome
+1775105,1775107,255573,Chronic obstructive lung disease,outcome
+1775105,1775107,257012,Chronic sinusitis,outcome
+1775105,1775107,443617,Conduct disorder,outcome
+1775105,1775107,134438,Contact dermatitis,outcome
+1775105,1775107,78619,Contusion of knee,outcome
+1775105,1775107,378752,Corneal opacity,outcome
+1775105,1775107,133228,Dental caries,outcome
+1775105,1775107,134681,Diffuse spasm of esophagus,outcome
+1775105,1775107,432251,Disease caused by parasite,outcome
+1775105,1775107,378161,Disorder of ear,outcome
+1775105,1775107,139057,Disorder of oral soft tissues,outcome
+1775105,1775107,31057,Disorder of pharynx,outcome
+1775105,1775107,138225,Disorder of sebaceous gland,outcome
+1775105,1775107,443916,Hereditary disease,outcome
+1775105,1775107,440329,Herpes zoster without complication,outcome
+1775105,1775107,441788,Human papilloma virus infection,outcome
+1775105,1775107,140673,Hypothyroidism,outcome
+1775105,1775107,374375,Impacted cerumen,outcome
+1775105,1775107,139099,Ingrowing nail,outcome
+1775105,1775107,436962,Insomnia,outcome
+1775105,1775107,201322,Internal hemorrhoids without complication,outcome
+1775105,1775107,132466,Lumbar sprain,outcome
+1775105,1775107,255891,Lupus erythematosus,outcome
+1775105,1775107,444100,Mood disorder,outcome
+1775105,1775107,440374,Obsessive-compulsive disorder,outcome
+1775105,1775107,380733,Otalgia,outcome
+1775105,1775107,372328,Otitis media,outcome
+1775105,1775107,4002650,Plantar fasciitis,outcome
+1775105,1775107,373478,Presbyopia,outcome
+1775105,1775107,436073,Psychotic disorder,outcome
+1775105,1775107,4320791,Rhinitis,outcome
+1775105,1775107,438688,Sarcoidosis,outcome
+1775105,1775107,432597,Schizoaffective schizophrenia,outcome
+1775105,1775107,435783,Schizophrenia,outcome
+1775105,1775107,372409,Sciatica,outcome
+1775105,1775107,73562,Solitary sacroiliitis,outcome
+1775105,1775107,133141,Tinea pedis,outcome
+1775105,1775107,436070,Vitamin D deficiency,outcome
+1775105,1775110,376707,Acute conjunctivitis,outcome
+1775105,1775110,433753,Alcohol abuse,outcome
+1775105,1775110,257007,Allergic rhinitis,outcome
+1775105,1775110,442077,Anxiety disorder,outcome
+1775105,1775110,436665,Bipolar disorder,outcome
+1775105,1775110,380094,Carpal tunnel syndrome,outcome
+1775105,1775110,255573,Chronic obstructive lung disease,outcome
+1775105,1775110,257012,Chronic sinusitis,outcome
+1775105,1775110,443617,Conduct disorder,outcome
+1775105,1775110,134438,Contact dermatitis,outcome
+1775105,1775110,78619,Contusion of knee,outcome
+1775105,1775110,378752,Corneal opacity,outcome
+1775105,1775110,133228,Dental caries,outcome
+1775105,1775110,134681,Diffuse spasm of esophagus,outcome
+1775105,1775110,432251,Disease caused by parasite,outcome
+1775105,1775110,378161,Disorder of ear,outcome
+1775105,1775110,139057,Disorder of oral soft tissues,outcome
+1775105,1775110,31057,Disorder of pharynx,outcome
+1775105,1775110,138225,Disorder of sebaceous gland,outcome
+1775105,1775110,443916,Hereditary disease,outcome
+1775105,1775110,440329,Herpes zoster without complication,outcome
+1775105,1775110,441788,Human papilloma virus infection,outcome
+1775105,1775110,140673,Hypothyroidism,outcome
+1775105,1775110,374375,Impacted cerumen,outcome
+1775105,1775110,139099,Ingrowing nail,outcome
+1775105,1775110,436962,Insomnia,outcome
+1775105,1775110,201322,Internal hemorrhoids without complication,outcome
+1775105,1775110,132466,Lumbar sprain,outcome
+1775105,1775110,255891,Lupus erythematosus,outcome
+1775105,1775110,444100,Mood disorder,outcome
+1775105,1775110,440374,Obsessive-compulsive disorder,outcome
+1775105,1775110,380733,Otalgia,outcome
+1775105,1775110,372328,Otitis media,outcome
+1775105,1775110,4002650,Plantar fasciitis,outcome
+1775105,1775110,373478,Presbyopia,outcome
+1775105,1775110,436073,Psychotic disorder,outcome
+1775105,1775110,4320791,Rhinitis,outcome
+1775105,1775110,438688,Sarcoidosis,outcome
+1775105,1775110,432597,Schizoaffective schizophrenia,outcome
+1775105,1775110,435783,Schizophrenia,outcome
+1775105,1775110,372409,Sciatica,outcome
+1775105,1775110,73562,Solitary sacroiliitis,outcome
+1775105,1775110,133141,Tinea pedis,outcome
+1775105,1775110,436070,Vitamin D deficiency,outcome
+1775105,1775108,376707,Acute conjunctivitis,outcome
+1775105,1775108,433753,Alcohol abuse,outcome
+1775105,1775108,257007,Allergic rhinitis,outcome
+1775105,1775108,442077,Anxiety disorder,outcome
+1775105,1775108,436665,Bipolar disorder,outcome
+1775105,1775108,380094,Carpal tunnel syndrome,outcome
+1775105,1775108,255573,Chronic obstructive lung disease,outcome
+1775105,1775108,257012,Chronic sinusitis,outcome
+1775105,1775108,443617,Conduct disorder,outcome
+1775105,1775108,134438,Contact dermatitis,outcome
+1775105,1775108,78619,Contusion of knee,outcome
+1775105,1775108,378752,Corneal opacity,outcome
+1775105,1775108,133228,Dental caries,outcome
+1775105,1775108,134681,Diffuse spasm of esophagus,outcome
+1775105,1775108,432251,Disease caused by parasite,outcome
+1775105,1775108,378161,Disorder of ear,outcome
+1775105,1775108,139057,Disorder of oral soft tissues,outcome
+1775105,1775108,31057,Disorder of pharynx,outcome
+1775105,1775108,138225,Disorder of sebaceous gland,outcome
+1775105,1775108,443916,Hereditary disease,outcome
+1775105,1775108,440329,Herpes zoster without complication,outcome
+1775105,1775108,441788,Human papilloma virus infection,outcome
+1775105,1775108,140673,Hypothyroidism,outcome
+1775105,1775108,374375,Impacted cerumen,outcome
+1775105,1775108,139099,Ingrowing nail,outcome
+1775105,1775108,436962,Insomnia,outcome
+1775105,1775108,201322,Internal hemorrhoids without complication,outcome
+1775105,1775108,132466,Lumbar sprain,outcome
+1775105,1775108,255891,Lupus erythematosus,outcome
+1775105,1775108,444100,Mood disorder,outcome
+1775105,1775108,440374,Obsessive-compulsive disorder,outcome
+1775105,1775108,380733,Otalgia,outcome
+1775105,1775108,372328,Otitis media,outcome
+1775105,1775108,4002650,Plantar fasciitis,outcome
+1775105,1775108,373478,Presbyopia,outcome
+1775105,1775108,436073,Psychotic disorder,outcome
+1775105,1775108,4320791,Rhinitis,outcome
+1775105,1775108,438688,Sarcoidosis,outcome
+1775105,1775108,432597,Schizoaffective schizophrenia,outcome
+1775105,1775108,435783,Schizophrenia,outcome
+1775105,1775108,372409,Sciatica,outcome
+1775105,1775108,73562,Solitary sacroiliitis,outcome
+1775105,1775108,133141,Tinea pedis,outcome
+1775105,1775108,436070,Vitamin D deficiency,outcome
+1775105,1775109,376707,Acute conjunctivitis,outcome
+1775105,1775109,433753,Alcohol abuse,outcome
+1775105,1775109,257007,Allergic rhinitis,outcome
+1775105,1775109,442077,Anxiety disorder,outcome
+1775105,1775109,436665,Bipolar disorder,outcome
+1775105,1775109,380094,Carpal tunnel syndrome,outcome
+1775105,1775109,255573,Chronic obstructive lung disease,outcome
+1775105,1775109,257012,Chronic sinusitis,outcome
+1775105,1775109,443617,Conduct disorder,outcome
+1775105,1775109,134438,Contact dermatitis,outcome
+1775105,1775109,78619,Contusion of knee,outcome
+1775105,1775109,378752,Corneal opacity,outcome
+1775105,1775109,133228,Dental caries,outcome
+1775105,1775109,134681,Diffuse spasm of esophagus,outcome
+1775105,1775109,432251,Disease caused by parasite,outcome
+1775105,1775109,378161,Disorder of ear,outcome
+1775105,1775109,139057,Disorder of oral soft tissues,outcome
+1775105,1775109,31057,Disorder of pharynx,outcome
+1775105,1775109,138225,Disorder of sebaceous gland,outcome
+1775105,1775109,443916,Hereditary disease,outcome
+1775105,1775109,440329,Herpes zoster without complication,outcome
+1775105,1775109,441788,Human papilloma virus infection,outcome
+1775105,1775109,140673,Hypothyroidism,outcome
+1775105,1775109,374375,Impacted cerumen,outcome
+1775105,1775109,139099,Ingrowing nail,outcome
+1775105,1775109,436962,Insomnia,outcome
+1775105,1775109,201322,Internal hemorrhoids without complication,outcome
+1775105,1775109,132466,Lumbar sprain,outcome
+1775105,1775109,255891,Lupus erythematosus,outcome
+1775105,1775109,444100,Mood disorder,outcome
+1775105,1775109,440374,Obsessive-compulsive disorder,outcome
+1775105,1775109,380733,Otalgia,outcome
+1775105,1775109,372328,Otitis media,outcome
+1775105,1775109,4002650,Plantar fasciitis,outcome
+1775105,1775109,373478,Presbyopia,outcome
+1775105,1775109,436073,Psychotic disorder,outcome
+1775105,1775109,4320791,Rhinitis,outcome
+1775105,1775109,438688,Sarcoidosis,outcome
+1775105,1775109,432597,Schizoaffective schizophrenia,outcome
+1775105,1775109,435783,Schizophrenia,outcome
+1775105,1775109,372409,Sciatica,outcome
+1775105,1775109,73562,Solitary sacroiliitis,outcome
+1775105,1775109,133141,Tinea pedis,outcome
+1775105,1775109,436070,Vitamin D deficiency,outcome
+1773511,1773632,376707,Acute conjunctivitis,outcome
+1773511,1773632,433753,Alcohol abuse,outcome
+1773511,1773632,257007,Allergic rhinitis,outcome
+1773511,1773632,442077,Anxiety disorder,outcome
+1773511,1773632,436665,Bipolar disorder,outcome
+1773511,1773632,380094,Carpal tunnel syndrome,outcome
+1773511,1773632,255573,Chronic obstructive lung disease,outcome
+1773511,1773632,257012,Chronic sinusitis,outcome
+1773511,1773632,443617,Conduct disorder,outcome
+1773511,1773632,134438,Contact dermatitis,outcome
+1773511,1773632,78619,Contusion of knee,outcome
+1773511,1773632,378752,Corneal opacity,outcome
+1773511,1773632,133228,Dental caries,outcome
+1773511,1773632,134681,Diffuse spasm of esophagus,outcome
+1773511,1773632,432251,Disease caused by parasite,outcome
+1773511,1773632,378161,Disorder of ear,outcome
+1773511,1773632,139057,Disorder of oral soft tissues,outcome
+1773511,1773632,31057,Disorder of pharynx,outcome
+1773511,1773632,138225,Disorder of sebaceous gland,outcome
+1773511,1773632,443916,Hereditary disease,outcome
+1773511,1773632,440329,Herpes zoster without complication,outcome
+1773511,1773632,441788,Human papilloma virus infection,outcome
+1773511,1773632,140673,Hypothyroidism,outcome
+1773511,1773632,374375,Impacted cerumen,outcome
+1773511,1773632,139099,Ingrowing nail,outcome
+1773511,1773632,436962,Insomnia,outcome
+1773511,1773632,201322,Internal hemorrhoids without complication,outcome
+1773511,1773632,132466,Lumbar sprain,outcome
+1773511,1773632,255891,Lupus erythematosus,outcome
+1773511,1773632,444100,Mood disorder,outcome
+1773511,1773632,440374,Obsessive-compulsive disorder,outcome
+1773511,1773632,380733,Otalgia,outcome
+1773511,1773632,372328,Otitis media,outcome
+1773511,1773632,4002650,Plantar fasciitis,outcome
+1773511,1773632,373478,Presbyopia,outcome
+1773511,1773632,436073,Psychotic disorder,outcome
+1773511,1773632,4320791,Rhinitis,outcome
+1773511,1773632,438688,Sarcoidosis,outcome
+1773511,1773632,432597,Schizoaffective schizophrenia,outcome
+1773511,1773632,435783,Schizophrenia,outcome
+1773511,1773632,372409,Sciatica,outcome
+1773511,1773632,73562,Solitary sacroiliitis,outcome
+1773511,1773632,133141,Tinea pedis,outcome
+1773511,1773632,436070,Vitamin D deficiency,outcome
+1773511,1773631,376707,Acute conjunctivitis,outcome
+1773511,1773631,433753,Alcohol abuse,outcome
+1773511,1773631,257007,Allergic rhinitis,outcome
+1773511,1773631,442077,Anxiety disorder,outcome
+1773511,1773631,436665,Bipolar disorder,outcome
+1773511,1773631,380094,Carpal tunnel syndrome,outcome
+1773511,1773631,255573,Chronic obstructive lung disease,outcome
+1773511,1773631,257012,Chronic sinusitis,outcome
+1773511,1773631,443617,Conduct disorder,outcome
+1773511,1773631,134438,Contact dermatitis,outcome
+1773511,1773631,78619,Contusion of knee,outcome
+1773511,1773631,378752,Corneal opacity,outcome
+1773511,1773631,133228,Dental caries,outcome
+1773511,1773631,134681,Diffuse spasm of esophagus,outcome
+1773511,1773631,432251,Disease caused by parasite,outcome
+1773511,1773631,378161,Disorder of ear,outcome
+1773511,1773631,139057,Disorder of oral soft tissues,outcome
+1773511,1773631,31057,Disorder of pharynx,outcome
+1773511,1773631,138225,Disorder of sebaceous gland,outcome
+1773511,1773631,443916,Hereditary disease,outcome
+1773511,1773631,440329,Herpes zoster without complication,outcome
+1773511,1773631,441788,Human papilloma virus infection,outcome
+1773511,1773631,140673,Hypothyroidism,outcome
+1773511,1773631,374375,Impacted cerumen,outcome
+1773511,1773631,139099,Ingrowing nail,outcome
+1773511,1773631,436962,Insomnia,outcome
+1773511,1773631,201322,Internal hemorrhoids without complication,outcome
+1773511,1773631,132466,Lumbar sprain,outcome
+1773511,1773631,255891,Lupus erythematosus,outcome
+1773511,1773631,444100,Mood disorder,outcome
+1773511,1773631,440374,Obsessive-compulsive disorder,outcome
+1773511,1773631,380733,Otalgia,outcome
+1773511,1773631,372328,Otitis media,outcome
+1773511,1773631,4002650,Plantar fasciitis,outcome
+1773511,1773631,373478,Presbyopia,outcome
+1773511,1773631,436073,Psychotic disorder,outcome
+1773511,1773631,4320791,Rhinitis,outcome
+1773511,1773631,438688,Sarcoidosis,outcome
+1773511,1773631,432597,Schizoaffective schizophrenia,outcome
+1773511,1773631,435783,Schizophrenia,outcome
+1773511,1773631,372409,Sciatica,outcome
+1773511,1773631,73562,Solitary sacroiliitis,outcome
+1773511,1773631,133141,Tinea pedis,outcome
+1773511,1773631,436070,Vitamin D deficiency,outcome
+1773511,1773617,376707,Acute conjunctivitis,outcome
+1773511,1773617,433753,Alcohol abuse,outcome
+1773511,1773617,257007,Allergic rhinitis,outcome
+1773511,1773617,442077,Anxiety disorder,outcome
+1773511,1773617,436665,Bipolar disorder,outcome
+1773511,1773617,380094,Carpal tunnel syndrome,outcome
+1773511,1773617,255573,Chronic obstructive lung disease,outcome
+1773511,1773617,257012,Chronic sinusitis,outcome
+1773511,1773617,443617,Conduct disorder,outcome
+1773511,1773617,134438,Contact dermatitis,outcome
+1773511,1773617,78619,Contusion of knee,outcome
+1773511,1773617,378752,Corneal opacity,outcome
+1773511,1773617,133228,Dental caries,outcome
+1773511,1773617,134681,Diffuse spasm of esophagus,outcome
+1773511,1773617,432251,Disease caused by parasite,outcome
+1773511,1773617,378161,Disorder of ear,outcome
+1773511,1773617,139057,Disorder of oral soft tissues,outcome
+1773511,1773617,31057,Disorder of pharynx,outcome
+1773511,1773617,138225,Disorder of sebaceous gland,outcome
+1773511,1773617,443916,Hereditary disease,outcome
+1773511,1773617,440329,Herpes zoster without complication,outcome
+1773511,1773617,441788,Human papilloma virus infection,outcome
+1773511,1773617,140673,Hypothyroidism,outcome
+1773511,1773617,374375,Impacted cerumen,outcome
+1773511,1773617,139099,Ingrowing nail,outcome
+1773511,1773617,436962,Insomnia,outcome
+1773511,1773617,201322,Internal hemorrhoids without complication,outcome
+1773511,1773617,132466,Lumbar sprain,outcome
+1773511,1773617,255891,Lupus erythematosus,outcome
+1773511,1773617,444100,Mood disorder,outcome
+1773511,1773617,440374,Obsessive-compulsive disorder,outcome
+1773511,1773617,380733,Otalgia,outcome
+1773511,1773617,372328,Otitis media,outcome
+1773511,1773617,4002650,Plantar fasciitis,outcome
+1773511,1773617,373478,Presbyopia,outcome
+1773511,1773617,436073,Psychotic disorder,outcome
+1773511,1773617,4320791,Rhinitis,outcome
+1773511,1773617,438688,Sarcoidosis,outcome
+1773511,1773617,432597,Schizoaffective schizophrenia,outcome
+1773511,1773617,435783,Schizophrenia,outcome
+1773511,1773617,372409,Sciatica,outcome
+1773511,1773617,73562,Solitary sacroiliitis,outcome
+1773511,1773617,133141,Tinea pedis,outcome
+1773511,1773617,436070,Vitamin D deficiency,outcome
+1773511,1773633,376707,Acute conjunctivitis,outcome
+1773511,1773633,433753,Alcohol abuse,outcome
+1773511,1773633,257007,Allergic rhinitis,outcome
+1773511,1773633,442077,Anxiety disorder,outcome
+1773511,1773633,436665,Bipolar disorder,outcome
+1773511,1773633,380094,Carpal tunnel syndrome,outcome
+1773511,1773633,255573,Chronic obstructive lung disease,outcome
+1773511,1773633,257012,Chronic sinusitis,outcome
+1773511,1773633,443617,Conduct disorder,outcome
+1773511,1773633,134438,Contact dermatitis,outcome
+1773511,1773633,78619,Contusion of knee,outcome
+1773511,1773633,378752,Corneal opacity,outcome
+1773511,1773633,133228,Dental caries,outcome
+1773511,1773633,134681,Diffuse spasm of esophagus,outcome
+1773511,1773633,432251,Disease caused by parasite,outcome
+1773511,1773633,378161,Disorder of ear,outcome
+1773511,1773633,139057,Disorder of oral soft tissues,outcome
+1773511,1773633,31057,Disorder of pharynx,outcome
+1773511,1773633,138225,Disorder of sebaceous gland,outcome
+1773511,1773633,443916,Hereditary disease,outcome
+1773511,1773633,440329,Herpes zoster without complication,outcome
+1773511,1773633,441788,Human papilloma virus infection,outcome
+1773511,1773633,140673,Hypothyroidism,outcome
+1773511,1773633,374375,Impacted cerumen,outcome
+1773511,1773633,139099,Ingrowing nail,outcome
+1773511,1773633,436962,Insomnia,outcome
+1773511,1773633,201322,Internal hemorrhoids without complication,outcome
+1773511,1773633,132466,Lumbar sprain,outcome
+1773511,1773633,255891,Lupus erythematosus,outcome
+1773511,1773633,444100,Mood disorder,outcome
+1773511,1773633,440374,Obsessive-compulsive disorder,outcome
+1773511,1773633,380733,Otalgia,outcome
+1773511,1773633,372328,Otitis media,outcome
+1773511,1773633,4002650,Plantar fasciitis,outcome
+1773511,1773633,373478,Presbyopia,outcome
+1773511,1773633,436073,Psychotic disorder,outcome
+1773511,1773633,4320791,Rhinitis,outcome
+1773511,1773633,438688,Sarcoidosis,outcome
+1773511,1773633,432597,Schizoaffective schizophrenia,outcome
+1773511,1773633,435783,Schizophrenia,outcome
+1773511,1773633,372409,Sciatica,outcome
+1773511,1773633,73562,Solitary sacroiliitis,outcome
+1773511,1773633,133141,Tinea pedis,outcome
+1773511,1773633,436070,Vitamin D deficiency,outcome
+1773517,1773514,376707,Acute conjunctivitis,outcome
+1773517,1773514,433753,Alcohol abuse,outcome
+1773517,1773514,257007,Allergic rhinitis,outcome
+1773517,1773514,442077,Anxiety disorder,outcome
+1773517,1773514,436665,Bipolar disorder,outcome
+1773517,1773514,380094,Carpal tunnel syndrome,outcome
+1773517,1773514,255573,Chronic obstructive lung disease,outcome
+1773517,1773514,257012,Chronic sinusitis,outcome
+1773517,1773514,443617,Conduct disorder,outcome
+1773517,1773514,134438,Contact dermatitis,outcome
+1773517,1773514,78619,Contusion of knee,outcome
+1773517,1773514,378752,Corneal opacity,outcome
+1773517,1773514,133228,Dental caries,outcome
+1773517,1773514,134681,Diffuse spasm of esophagus,outcome
+1773517,1773514,432251,Disease caused by parasite,outcome
+1773517,1773514,378161,Disorder of ear,outcome
+1773517,1773514,139057,Disorder of oral soft tissues,outcome
+1773517,1773514,31057,Disorder of pharynx,outcome
+1773517,1773514,138225,Disorder of sebaceous gland,outcome
+1773517,1773514,443916,Hereditary disease,outcome
+1773517,1773514,440329,Herpes zoster without complication,outcome
+1773517,1773514,441788,Human papilloma virus infection,outcome
+1773517,1773514,140673,Hypothyroidism,outcome
+1773517,1773514,374375,Impacted cerumen,outcome
+1773517,1773514,139099,Ingrowing nail,outcome
+1773517,1773514,436962,Insomnia,outcome
+1773517,1773514,201322,Internal hemorrhoids without complication,outcome
+1773517,1773514,132466,Lumbar sprain,outcome
+1773517,1773514,255891,Lupus erythematosus,outcome
+1773517,1773514,444100,Mood disorder,outcome
+1773517,1773514,440374,Obsessive-compulsive disorder,outcome
+1773517,1773514,380733,Otalgia,outcome
+1773517,1773514,372328,Otitis media,outcome
+1773517,1773514,4002650,Plantar fasciitis,outcome
+1773517,1773514,373478,Presbyopia,outcome
+1773517,1773514,436073,Psychotic disorder,outcome
+1773517,1773514,4320791,Rhinitis,outcome
+1773517,1773514,438688,Sarcoidosis,outcome
+1773517,1773514,432597,Schizoaffective schizophrenia,outcome
+1773517,1773514,435783,Schizophrenia,outcome
+1773517,1773514,372409,Sciatica,outcome
+1773517,1773514,73562,Solitary sacroiliitis,outcome
+1773517,1773514,133141,Tinea pedis,outcome
+1773517,1773514,436070,Vitamin D deficiency,outcome
+1773516,1773517,376707,Acute conjunctivitis,outcome
+1773516,1773517,433753,Alcohol abuse,outcome
+1773516,1773517,257007,Allergic rhinitis,outcome
+1773516,1773517,442077,Anxiety disorder,outcome
+1773516,1773517,436665,Bipolar disorder,outcome
+1773516,1773517,380094,Carpal tunnel syndrome,outcome
+1773516,1773517,255573,Chronic obstructive lung disease,outcome
+1773516,1773517,257012,Chronic sinusitis,outcome
+1773516,1773517,443617,Conduct disorder,outcome
+1773516,1773517,134438,Contact dermatitis,outcome
+1773516,1773517,78619,Contusion of knee,outcome
+1773516,1773517,378752,Corneal opacity,outcome
+1773516,1773517,133228,Dental caries,outcome
+1773516,1773517,134681,Diffuse spasm of esophagus,outcome
+1773516,1773517,432251,Disease caused by parasite,outcome
+1773516,1773517,378161,Disorder of ear,outcome
+1773516,1773517,139057,Disorder of oral soft tissues,outcome
+1773516,1773517,31057,Disorder of pharynx,outcome
+1773516,1773517,138225,Disorder of sebaceous gland,outcome
+1773516,1773517,443916,Hereditary disease,outcome
+1773516,1773517,440329,Herpes zoster without complication,outcome
+1773516,1773517,441788,Human papilloma virus infection,outcome
+1773516,1773517,140673,Hypothyroidism,outcome
+1773516,1773517,374375,Impacted cerumen,outcome
+1773516,1773517,139099,Ingrowing nail,outcome
+1773516,1773517,436962,Insomnia,outcome
+1773516,1773517,201322,Internal hemorrhoids without complication,outcome
+1773516,1773517,132466,Lumbar sprain,outcome
+1773516,1773517,255891,Lupus erythematosus,outcome
+1773516,1773517,444100,Mood disorder,outcome
+1773516,1773517,440374,Obsessive-compulsive disorder,outcome
+1773516,1773517,380733,Otalgia,outcome
+1773516,1773517,372328,Otitis media,outcome
+1773516,1773517,4002650,Plantar fasciitis,outcome
+1773516,1773517,373478,Presbyopia,outcome
+1773516,1773517,436073,Psychotic disorder,outcome
+1773516,1773517,4320791,Rhinitis,outcome
+1773516,1773517,438688,Sarcoidosis,outcome
+1773516,1773517,432597,Schizoaffective schizophrenia,outcome
+1773516,1773517,435783,Schizophrenia,outcome
+1773516,1773517,372409,Sciatica,outcome
+1773516,1773517,73562,Solitary sacroiliitis,outcome
+1773516,1773517,133141,Tinea pedis,outcome
+1773516,1773517,436070,Vitamin D deficiency,outcome
+1773516,1773514,376707,Acute conjunctivitis,outcome
+1773516,1773514,433753,Alcohol abuse,outcome
+1773516,1773514,257007,Allergic rhinitis,outcome
+1773516,1773514,442077,Anxiety disorder,outcome
+1773516,1773514,436665,Bipolar disorder,outcome
+1773516,1773514,380094,Carpal tunnel syndrome,outcome
+1773516,1773514,255573,Chronic obstructive lung disease,outcome
+1773516,1773514,257012,Chronic sinusitis,outcome
+1773516,1773514,443617,Conduct disorder,outcome
+1773516,1773514,134438,Contact dermatitis,outcome
+1773516,1773514,78619,Contusion of knee,outcome
+1773516,1773514,378752,Corneal opacity,outcome
+1773516,1773514,133228,Dental caries,outcome
+1773516,1773514,134681,Diffuse spasm of esophagus,outcome
+1773516,1773514,432251,Disease caused by parasite,outcome
+1773516,1773514,378161,Disorder of ear,outcome
+1773516,1773514,139057,Disorder of oral soft tissues,outcome
+1773516,1773514,31057,Disorder of pharynx,outcome
+1773516,1773514,138225,Disorder of sebaceous gland,outcome
+1773516,1773514,443916,Hereditary disease,outcome
+1773516,1773514,440329,Herpes zoster without complication,outcome
+1773516,1773514,441788,Human papilloma virus infection,outcome
+1773516,1773514,140673,Hypothyroidism,outcome
+1773516,1773514,374375,Impacted cerumen,outcome
+1773516,1773514,139099,Ingrowing nail,outcome
+1773516,1773514,436962,Insomnia,outcome
+1773516,1773514,201322,Internal hemorrhoids without complication,outcome
+1773516,1773514,132466,Lumbar sprain,outcome
+1773516,1773514,255891,Lupus erythematosus,outcome
+1773516,1773514,444100,Mood disorder,outcome
+1773516,1773514,440374,Obsessive-compulsive disorder,outcome
+1773516,1773514,380733,Otalgia,outcome
+1773516,1773514,372328,Otitis media,outcome
+1773516,1773514,4002650,Plantar fasciitis,outcome
+1773516,1773514,373478,Presbyopia,outcome
+1773516,1773514,436073,Psychotic disorder,outcome
+1773516,1773514,4320791,Rhinitis,outcome
+1773516,1773514,438688,Sarcoidosis,outcome
+1773516,1773514,432597,Schizoaffective schizophrenia,outcome
+1773516,1773514,435783,Schizophrenia,outcome
+1773516,1773514,372409,Sciatica,outcome
+1773516,1773514,73562,Solitary sacroiliitis,outcome
+1773516,1773514,133141,Tinea pedis,outcome
+1773516,1773514,436070,Vitamin D deficiency,outcome
+1773515,1773516,376707,Acute conjunctivitis,outcome
+1773515,1773516,433753,Alcohol abuse,outcome
+1773515,1773516,257007,Allergic rhinitis,outcome
+1773515,1773516,442077,Anxiety disorder,outcome
+1773515,1773516,436665,Bipolar disorder,outcome
+1773515,1773516,380094,Carpal tunnel syndrome,outcome
+1773515,1773516,255573,Chronic obstructive lung disease,outcome
+1773515,1773516,257012,Chronic sinusitis,outcome
+1773515,1773516,443617,Conduct disorder,outcome
+1773515,1773516,134438,Contact dermatitis,outcome
+1773515,1773516,78619,Contusion of knee,outcome
+1773515,1773516,378752,Corneal opacity,outcome
+1773515,1773516,133228,Dental caries,outcome
+1773515,1773516,134681,Diffuse spasm of esophagus,outcome
+1773515,1773516,432251,Disease caused by parasite,outcome
+1773515,1773516,378161,Disorder of ear,outcome
+1773515,1773516,139057,Disorder of oral soft tissues,outcome
+1773515,1773516,31057,Disorder of pharynx,outcome
+1773515,1773516,138225,Disorder of sebaceous gland,outcome
+1773515,1773516,443916,Hereditary disease,outcome
+1773515,1773516,440329,Herpes zoster without complication,outcome
+1773515,1773516,441788,Human papilloma virus infection,outcome
+1773515,1773516,140673,Hypothyroidism,outcome
+1773515,1773516,374375,Impacted cerumen,outcome
+1773515,1773516,139099,Ingrowing nail,outcome
+1773515,1773516,436962,Insomnia,outcome
+1773515,1773516,201322,Internal hemorrhoids without complication,outcome
+1773515,1773516,132466,Lumbar sprain,outcome
+1773515,1773516,255891,Lupus erythematosus,outcome
+1773515,1773516,444100,Mood disorder,outcome
+1773515,1773516,440374,Obsessive-compulsive disorder,outcome
+1773515,1773516,380733,Otalgia,outcome
+1773515,1773516,372328,Otitis media,outcome
+1773515,1773516,4002650,Plantar fasciitis,outcome
+1773515,1773516,373478,Presbyopia,outcome
+1773515,1773516,436073,Psychotic disorder,outcome
+1773515,1773516,4320791,Rhinitis,outcome
+1773515,1773516,438688,Sarcoidosis,outcome
+1773515,1773516,432597,Schizoaffective schizophrenia,outcome
+1773515,1773516,435783,Schizophrenia,outcome
+1773515,1773516,372409,Sciatica,outcome
+1773515,1773516,73562,Solitary sacroiliitis,outcome
+1773515,1773516,133141,Tinea pedis,outcome
+1773515,1773516,436070,Vitamin D deficiency,outcome
+1773515,1773517,376707,Acute conjunctivitis,outcome
+1773515,1773517,433753,Alcohol abuse,outcome
+1773515,1773517,257007,Allergic rhinitis,outcome
+1773515,1773517,442077,Anxiety disorder,outcome
+1773515,1773517,436665,Bipolar disorder,outcome
+1773515,1773517,380094,Carpal tunnel syndrome,outcome
+1773515,1773517,255573,Chronic obstructive lung disease,outcome
+1773515,1773517,257012,Chronic sinusitis,outcome
+1773515,1773517,443617,Conduct disorder,outcome
+1773515,1773517,134438,Contact dermatitis,outcome
+1773515,1773517,78619,Contusion of knee,outcome
+1773515,1773517,378752,Corneal opacity,outcome
+1773515,1773517,133228,Dental caries,outcome
+1773515,1773517,134681,Diffuse spasm of esophagus,outcome
+1773515,1773517,432251,Disease caused by parasite,outcome
+1773515,1773517,378161,Disorder of ear,outcome
+1773515,1773517,139057,Disorder of oral soft tissues,outcome
+1773515,1773517,31057,Disorder of pharynx,outcome
+1773515,1773517,138225,Disorder of sebaceous gland,outcome
+1773515,1773517,443916,Hereditary disease,outcome
+1773515,1773517,440329,Herpes zoster without complication,outcome
+1773515,1773517,441788,Human papilloma virus infection,outcome
+1773515,1773517,140673,Hypothyroidism,outcome
+1773515,1773517,374375,Impacted cerumen,outcome
+1773515,1773517,139099,Ingrowing nail,outcome
+1773515,1773517,436962,Insomnia,outcome
+1773515,1773517,201322,Internal hemorrhoids without complication,outcome
+1773515,1773517,132466,Lumbar sprain,outcome
+1773515,1773517,255891,Lupus erythematosus,outcome
+1773515,1773517,444100,Mood disorder,outcome
+1773515,1773517,440374,Obsessive-compulsive disorder,outcome
+1773515,1773517,380733,Otalgia,outcome
+1773515,1773517,372328,Otitis media,outcome
+1773515,1773517,4002650,Plantar fasciitis,outcome
+1773515,1773517,373478,Presbyopia,outcome
+1773515,1773517,436073,Psychotic disorder,outcome
+1773515,1773517,4320791,Rhinitis,outcome
+1773515,1773517,438688,Sarcoidosis,outcome
+1773515,1773517,432597,Schizoaffective schizophrenia,outcome
+1773515,1773517,435783,Schizophrenia,outcome
+1773515,1773517,372409,Sciatica,outcome
+1773515,1773517,73562,Solitary sacroiliitis,outcome
+1773515,1773517,133141,Tinea pedis,outcome
+1773515,1773517,436070,Vitamin D deficiency,outcome
+1773515,1773514,376707,Acute conjunctivitis,outcome
+1773515,1773514,433753,Alcohol abuse,outcome
+1773515,1773514,257007,Allergic rhinitis,outcome
+1773515,1773514,442077,Anxiety disorder,outcome
+1773515,1773514,436665,Bipolar disorder,outcome
+1773515,1773514,380094,Carpal tunnel syndrome,outcome
+1773515,1773514,255573,Chronic obstructive lung disease,outcome
+1773515,1773514,257012,Chronic sinusitis,outcome
+1773515,1773514,443617,Conduct disorder,outcome
+1773515,1773514,134438,Contact dermatitis,outcome
+1773515,1773514,78619,Contusion of knee,outcome
+1773515,1773514,378752,Corneal opacity,outcome
+1773515,1773514,133228,Dental caries,outcome
+1773515,1773514,134681,Diffuse spasm of esophagus,outcome
+1773515,1773514,432251,Disease caused by parasite,outcome
+1773515,1773514,378161,Disorder of ear,outcome
+1773515,1773514,139057,Disorder of oral soft tissues,outcome
+1773515,1773514,31057,Disorder of pharynx,outcome
+1773515,1773514,138225,Disorder of sebaceous gland,outcome
+1773515,1773514,443916,Hereditary disease,outcome
+1773515,1773514,440329,Herpes zoster without complication,outcome
+1773515,1773514,441788,Human papilloma virus infection,outcome
+1773515,1773514,140673,Hypothyroidism,outcome
+1773515,1773514,374375,Impacted cerumen,outcome
+1773515,1773514,139099,Ingrowing nail,outcome
+1773515,1773514,436962,Insomnia,outcome
+1773515,1773514,201322,Internal hemorrhoids without complication,outcome
+1773515,1773514,132466,Lumbar sprain,outcome
+1773515,1773514,255891,Lupus erythematosus,outcome
+1773515,1773514,444100,Mood disorder,outcome
+1773515,1773514,440374,Obsessive-compulsive disorder,outcome
+1773515,1773514,380733,Otalgia,outcome
+1773515,1773514,372328,Otitis media,outcome
+1773515,1773514,4002650,Plantar fasciitis,outcome
+1773515,1773514,373478,Presbyopia,outcome
+1773515,1773514,436073,Psychotic disorder,outcome
+1773515,1773514,4320791,Rhinitis,outcome
+1773515,1773514,438688,Sarcoidosis,outcome
+1773515,1773514,432597,Schizoaffective schizophrenia,outcome
+1773515,1773514,435783,Schizophrenia,outcome
+1773515,1773514,372409,Sciatica,outcome
+1773515,1773514,73562,Solitary sacroiliitis,outcome
+1773515,1773514,133141,Tinea pedis,outcome
+1773515,1773514,436070,Vitamin D deficiency,outcome
